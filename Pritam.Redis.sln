@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{965CE1A4-DED4-41FF-BEA1-6549B73350BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pritam.Redis", "Pritam.Redis\Pritam.Redis.csproj", "{A8F0AFC2-0B9E-481A-B95A-7672C6A1826C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Redis.Test", "Tests\Pritam.Redis.Test\Redis.Test.csproj", "{BDCDD8B2-3274-4431-904D-E61AF28BD5C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pritam.Redis.Interface", "Pritam.Redis.Interface\Pritam.Redis.Interface.csproj", "{4828575F-E22F-41B7-A0F9-E3480897757A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8F0AFC2-0B9E-481A-B95A-7672C6A1826C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F0AFC2-0B9E-481A-B95A-7672C6A1826C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F0AFC2-0B9E-481A-B95A-7672C6A1826C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F0AFC2-0B9E-481A-B95A-7672C6A1826C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCDD8B2-3274-4431-904D-E61AF28BD5C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCDD8B2-3274-4431-904D-E61AF28BD5C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCDD8B2-3274-4431-904D-E61AF28BD5C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCDD8B2-3274-4431-904D-E61AF28BD5C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4828575F-E22F-41B7-A0F9-E3480897757A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4828575F-E22F-41B7-A0F9-E3480897757A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4828575F-E22F-41B7-A0F9-E3480897757A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4828575F-E22F-41B7-A0F9-E3480897757A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BDCDD8B2-3274-4431-904D-E61AF28BD5C9} = {965CE1A4-DED4-41FF-BEA1-6549B73350BC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1E6EA8E9-0EAB-499C-BAA5-A4A5C8AE8328}
+	EndGlobalSection
+EndGlobal
